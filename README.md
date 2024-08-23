@@ -4,8 +4,8 @@ Project Description:
 This project implements an advanced graph coloring algorithm that satisfies multiple constraints, including minimizing the number of colors used, respecting pre-assigned colors, handling color exclusions, adapting to dynamic changes in the graph, and optimizing the solution using heuristics. The project is developed using Object-Oriented Programming (OOP) principles in Python and incorporates design patterns such as Strategy and Factory.
 
 Project Structure:
-main3.py: Contains the implementation of the Graph, ConstraintManager, ColoringSolver, HeuristicOptimizer, and various coloring strategies (e.g., GreedyColoring, BacktrackingColoring).
-main3.py: A comprehensive test suite to validate the graph coloring solution against various scenarios, including edge cases and large graphs.
+main.py: Contains the implementation of the Graph, ConstraintManager, ColoringSolver, HeuristicOptimizer, and various coloring strategies (e.g., GreedyColoring, BacktrackingColoring).
+main.py: A comprehensive test suite to validate the graph coloring solution against various scenarios, including edge cases and large graphs.
 
 
 README.md: This file, providing instructions and documentation.
@@ -21,14 +21,14 @@ Clone the repository or download the .zip file and extract it.
 Navigate to the project directory.
 bash
 Copy code
-cd advanced-graph-coloring
+cd main
 Running the Code
 Running the Main Script
 To run the graph coloring algorithm, you can execute the main script:
 
 bash
 Copy code
-main3.py
+main.py
 This will run the default implementation of the algorithm and output the results.
 
 Running the Test Suite
@@ -36,12 +36,12 @@ To validate the solution and check for correctness, run the test suite:
 
 bash
 Copy code
-python -m unittest main3.py 
+python -m unittest main.py 
 This will execute all test cases and provide a summary of the results.
 
 Explanation of Files:
 graph_coloring.py: Contains all the classes and logic for the graph coloring solution.
-main3.py: Includes unit tests that cover various constraints, dynamic changes, and performance under large graphs.
+main.py: Includes unit tests that cover various constraints, dynamic changes, and performance under large graphs.
 README.md: Documentation and instructions.
 Performance_Report.md: Detailed performance analysis and design choices.
 
